@@ -1,0 +1,3 @@
+- npm init
+- npm i express mongoose dotenv cors argon2
+- npm i --save-dev nodemon
