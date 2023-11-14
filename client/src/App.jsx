@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const getData = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/dogs");
+        const res = await axios.get("http://localhost:8088/api");
         setDogs(res.data);
       } catch (error) {
         console.log(error);

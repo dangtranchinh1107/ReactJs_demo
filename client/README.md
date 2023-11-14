@@ -1,8 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Để sử dụng Context trong React :
+Bước 1: Tạo Context (ví dụ AppContext);
+Bước 2: Quyết định xem Context vừa tạo sử dụng ở đâu
+bằng cách bọc <[Tên Context].Provider> bên ngoài components đó
+thì tất cả components con đều có thể lấy được dữ liệu từ Context
+Bước 3: Sử dụng dữ liệu từ Context-> lấy dữ liệu bằng useContext
